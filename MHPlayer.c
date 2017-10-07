@@ -12,9 +12,12 @@ typedef struct track
 
 int main(int argc, char *argv[]){
 
-if (argc < 1){
-	printf("Please choose a file to play");
+if (argc == 1){
+	printf("Please choose a file to play\n");
 	return (0);
+}
+if (argc > 1){
+	
 }
 
 
